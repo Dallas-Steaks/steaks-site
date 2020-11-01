@@ -1,0 +1,11 @@
+body,
+a,
+a:visited {
+  background-color: #8c8d8f;
+  color: #b2b3b5;
+  text-align: center;
+}
+
+#logo {
+  font-size: 24em;
+}
