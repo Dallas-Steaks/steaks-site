@@ -13,7 +13,9 @@
 
 # Working
 Files can be written in html or markdown formatting, depending on what you're comfortable with.  Both are valid, and jekyll will do any conversions needed to output html.
+
 There are many guides out there on markdown/html syntax (and you can also just look at the files we have currently to see), so I'm not going to give a recap of those things.
+
 However, please keep forbidden knowledge to a minimum (or at least on a separate page, so people don't accidentally see it).
 
 # Finishing Up
