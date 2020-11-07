@@ -51,6 +51,10 @@ export const App = () => {
         {data.atBatBalls.N}-{data.atBatStrikes.N} with {data.halfInningOuts.N}
         {data.halfInningOuts.N === 1 ? " Out" : " Outs"}
       </p>
+
+      <p className="hang-out-and-low">
+        <a href="/">Home</a>
+      </p>
     </div>
   );
 };
