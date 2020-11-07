@@ -40,7 +40,10 @@ plugins:
 # their entries' file path in the `include:` list.
 #
 exclude:
+  - .gitignore
+  - build.ps1
   - deploy.cmd
+  - playback/
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
