@@ -51,6 +51,14 @@ export const App = () => {
         {data.atBatBalls.N}-{data.atBatStrikes.N} with {data.halfInningOuts.N}
         {data.halfInningOuts.N === 1 ? " Out" : " Outs"}
       </p>
+      <p>
+        Score: {data.awayScore.N} - {data.homeScore.N}{" "}
+        {data.awayScore.N === data.homeScore.N
+          ? ""
+          : data.awayScore.N > data.homeScore.N
+          ? data.awayTeamNickname.S
+          : data.homeTeamNickname.S}
+      </p>
 
       <p className="hang-out-and-low">
         <a href="/">Home</a>
